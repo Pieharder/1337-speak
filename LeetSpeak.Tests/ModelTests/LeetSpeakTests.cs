@@ -19,5 +19,12 @@ namespace LeetSpeak.Tests
     Translate newTranslate = new Translate();
     Assert.AreEqual("0", newTranslate.LeetTranslate("o"));
     }
+
+    [TestMethod]
+    public void LeetTranslate_TurnCapitalITo1_True()
+    {
+    Translate newTranslate = new Translate();
+    Assert.AreEqual("I", newTranslate.LeetTranslate("1"));
+    }
   }
 }
