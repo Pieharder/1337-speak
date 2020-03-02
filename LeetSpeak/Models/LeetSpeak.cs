@@ -22,7 +22,9 @@ namespace LeetSpeak
           case 'O': 
             array[i] = '0';
             break;
-            
+          case 'I': 
+            array[i] = '1';
+            break;  
           default:
             break;
         }

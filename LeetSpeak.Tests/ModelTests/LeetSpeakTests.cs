@@ -24,7 +24,7 @@ namespace LeetSpeak.Tests
     public void LeetTranslate_TurnCapitalITo1_True()
     {
     Translate newTranslate = new Translate();
-    Assert.AreEqual("I", newTranslate.LeetTranslate("1"));
+    Assert.AreEqual("1", newTranslate.LeetTranslate("I"));
     }
   }
 }
