@@ -8,6 +8,11 @@ namespace LeetSpeak
       char[] array = str.ToCharArray();
       for(int i=0; i < array.Length; i++)
       {
+        if (array[i] == ' ' && array[i + 1] == 's')
+        {
+         i += 2;
+        }
+
         switch (array[i])
         {
           case 'e': 
@@ -31,6 +36,12 @@ namespace LeetSpeak
           case 't': 
             array[i] = '7';
             break; 
+          case 's': 
+            array[i] = 'z';
+            break;
+          default:
+            break;
+
         }
       }
       string result = string.Join("", array);
