@@ -1,4 +1,4 @@
-# My Name Jef
+# Leetspeak Translator
 
 #### _Epicodus 2020 C#/React Cohort C# Testing Practice Project_
 
