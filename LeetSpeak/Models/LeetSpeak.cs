@@ -22,15 +22,6 @@ namespace LeetSpeak
           case 'O': 
             array[i] = '0';
             break;
-          case 't': 
-            array[i] = '7';
-            break;
-          case 'T': 
-            array[i] = '7';
-            break;
-          case 's': 
-            array[i] = 'z';
-            break;
             
           default:
             break;

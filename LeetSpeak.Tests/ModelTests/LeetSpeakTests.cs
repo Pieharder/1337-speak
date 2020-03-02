@@ -17,7 +17,7 @@ namespace LeetSpeak.Tests
     public void LeetTranslate_TurnOTo0_True()
     {
     Translate newTranslate = new Translate();
-    Assert.AreEqual("0", newTranslate.LeetTranslate("Those"));
+    Assert.AreEqual("0", newTranslate.LeetTranslate("o"));
     }
   }
 }
