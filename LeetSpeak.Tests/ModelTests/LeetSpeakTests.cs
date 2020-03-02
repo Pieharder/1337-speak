@@ -26,5 +26,12 @@ namespace LeetSpeak.Tests
     Translate newTranslate = new Translate();
     Assert.AreEqual("1", newTranslate.LeetTranslate("I"));
     }
+
+    [TestMethod]
+    public void LeetTranslate_TurnCapitalTTo7_True()
+    {
+    Translate newTranslate = new Translate();
+    Assert.AreEqual("7", newTranslate.LeetTranslate("T"));
+    }
   }
 }

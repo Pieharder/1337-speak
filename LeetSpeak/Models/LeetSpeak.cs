@@ -25,8 +25,12 @@ namespace LeetSpeak
           case 'I': 
             array[i] = '1';
             break;  
-          default:
-            break;
+          case 'T': 
+            array[i] = '7';
+            break; 
+          case 't': 
+            array[i] = '7';
+            break; 
         }
       }
       string result = string.Join("", array);
